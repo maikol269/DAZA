@@ -1,0 +1,98 @@
+.bordes {
+    border: 1px solid rgb(6, 6, 19);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.estilo {
+    border: 1px solid green;
+    background-color: rgb(238, 17, 73);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo {
+    width: 100px; 
+    height: auto; 
+}
+
+
+nav {
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px; 
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #580606;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+#cuerpo {
+    background-color: #7dca25; 
+    border: 1px solid #ceb216; 
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#cuerpo h2 {
+    margin-top: 0;
+}
+
+#cuerpo ul {
+    list-style-type: disc; 
+    padding-left: 20px;
+}
+
+#cuerpo li {
+    margin-bottom: 10px;
+}
+
+
+#info-basica {
+    background-color: #5fcc2d; 
+    border: 1px solid #c75050; 
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#info-basica h2 {
+    margin-top: 0;
+}
+
+#info-basica p {
+    margin: 10px 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #db0a0a;
+}
